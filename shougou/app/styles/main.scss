@@ -1,0 +1,122 @@
+$icon-font-path: '../fonts/';
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+body{
+  margin: 0;
+  padding: 0;
+}
+.zhengti{
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+  background: #fff;
+  position: relative;
+  min-width: 1000px;
+  height: 100%;
+  //word-break: break-all;
+  //word-wrap: break-word;
+}
+header{
+  line-height: 24px;
+  padding: 0px ;
+  height: 24px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  min-width: 1000px;
+  z-index: 2001;
+  margin-top:-50px ;
+
+}
+
+//左边提示框
+.left{
+  float: left;
+  list-style: none;
+}
+.left li{
+  float: left;
+  padding: 0px 10px;
+}
+//右边提示框
+.right{
+  float: right;
+  list-style: none;
+  padding-right: 15px;
+}
+.right li{
+  float: left;
+  padding: 0px 10px;
+}
+.right v{
+  background-color: #FD6853;
+  color: wheat;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+header{
+  ul{
+    li{
+      a{
+        color: black;
+      }
+    }
+  }
+}
+header{
+  ul{
+    li{
+      a:hover{
+        color: red;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.left b{
+  color: red;
+}
+.logo img{
+  margin-left: 400px;
+}
+.lg{
+  width: 50px;
+  height: 50px;
+  //border: 1px solid red;
+  display: block;
+  background-image: url("../images/385899500825248274.png");
+  margin-left: 800px;
+  margin-top: 50px;
+}
+.btn {
+  background-color: #FD6853;
+  color: wheat;
+}
+.col-lg-6{
+  margin-left: 330px;
+}
+footer{
+  width: 100%;
+text-align: center;
+}
+
+footer p{
+  margin:150px auto;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
